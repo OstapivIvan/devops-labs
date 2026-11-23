@@ -13,3 +13,9 @@ export function slugify(text) {
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');
 }
+
+export function truncate(text, maxLength) {
+  const value = String(text);
+  if (value.length <= maxLength) return value;
+  return value.slice(0, Math.max(0, maxLength - 1)) + '…';
+}
