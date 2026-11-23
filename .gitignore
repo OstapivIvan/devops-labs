@@ -1,0 +1,5 @@
+node_modules/
+dist/
+
+# personal course notes, not part of this repo
+learning/

@@ -1,0 +1,11 @@
+{
+  "name": "devops-labs",
+  "version": "1.0.0",
+  "description": "Tiny string helpers used as a GitHub Actions CI/CD practice project",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "test": "node --test",
+    "ci": "npm run build && npm test"
+  }
+}
